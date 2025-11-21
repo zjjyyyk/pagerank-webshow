@@ -1,39 +1,41 @@
-# PageRank 算法性能对比工具
+# PageRank Algorithm Performance Comparison
 
-🚀 **[在线演示](https://zjjyyyk.github.io/pagerank-webshow/)**
+🇬🇧 English | [🇨🇳 简体中文](./README.md)
 
-## 💡 这是什么？
+🚀 **[Live Demo](https://zjjyyyk.github.io/pagerank-webshow/)**
 
-一个基于 Web 的工具，用于**实时可视化和对比不同 PageRank 算法实现的性能**。
+## 💡 What is this?
 
-- **JavaScript vs WebAssembly (C++)** - 亲眼见证速度差异
-- **幂迭代法 vs 随机游走法** - 对比不同算法思路
-- **真实数据集** - 在实际网络上测试（DBLP、Enron、天体物理引用网络）
-- **交互式参数** - 调整阻尼因子、迭代次数等
+A web-based tool to **visualize and compare the performance** of different PageRank algorithm implementations in real-time.
 
-## 🎯 快速开始
+- **JavaScript vs WebAssembly (C++)** - See the speed difference yourself
+- **Multiple algorithm implementations** - Currently supports Power Iteration and Random Walk, with more algorithms coming soon
+- **Real datasets** - Test on actual networks (DBLP, Enron, Astrophysics citations)
+- **Interactive parameters** - Adjust damping factor, iterations, and more
 
-1. 访问[在线网站](https://zjjyyyk.github.io/pagerank-webshow/)
-2. 选择一个数据集（或上传自己的）
-3. 选择一个算法
-4. 点击"Compute PageRank"
-5. 对比执行时间和结果！
+## 🎯 Quick Start
 
-## 📊 功能特性
+1. Visit the [live site](https://zjjyyyk.github.io/pagerank-webshow/)
+2. Choose a dataset (or upload your own)
+3. Select an algorithm
+4. Hit "Compute PageRank"
+5. Compare execution times and results!
 
-- ⚡ **性能指标** - 执行时间追踪
-- 📈 **误差分析** - L1、L2 和最大相对误差
-- 🎨 **可视化对比** - 并排显示结果
-- 📤 **自定义数据集** - 上传你自己的图（边列表格式）
-- 🔄 **支持两种图类型** - 有向图和无向图
+## 📊 Features
 
-## 🛠️ 技术栈
+- ⚡ **Performance metrics** - Execution time tracking
+- 📈 **Error analysis** - L1, L2, and max relative error
+- 🎨 **Visual comparison** - Side-by-side results
+- 📤 **Custom datasets** - Upload your own graphs (edge list format)
+- 🔄 **Both graph types** - Directed and undirected support
+
+## 🛠️ Tech Stack
 
 - React + TypeScript + Vite
 - WebAssembly (Emscripten)
-- Web Workers（非阻塞计算）
+- Web Workers (non-blocking computation)
 - Tailwind CSS
 
 ---
 
-为在浏览器中探索算法性能而生 🚀
+Built to explore algorithm performance in the browser 🚀

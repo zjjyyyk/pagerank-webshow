@@ -1,39 +1,41 @@
-# PageRank Algorithm Performance Comparison
+# PageRank 算法性能对比工具
 
-🚀 **[Live Demo](https://zjjyyyk.github.io/pagerank-webshow/)**
+[🇬🇧 English](./README.zh.md) | 🇨🇳 简体中文
 
-## 💡 What is this?
+🚀 **[在线演示](https://zjjyyyk.github.io/pagerank-webshow/)**
 
-A web-based tool to **visualize and compare the performance** of different PageRank algorithm implementations in real-time.
+## 💡 这是什么？
 
-- **JavaScript vs WebAssembly (C++)** - See the speed difference yourself
-- **Power Iteration vs Random Walk** - Compare different algorithmic approaches
-- **Real datasets** - Test on actual networks (DBLP, Enron, Astrophysics citations)
-- **Interactive parameters** - Adjust damping factor, iterations, and more
+一个基于 Web 的工具，用于**实时可视化和对比不同 PageRank 算法实现的性能**。
 
-## 🎯 Quick Start
+- **JavaScript vs WebAssembly (C++)** - 亲眼见证速度差异
+- **多种算法实现** - 目前支持幂迭代法和随机游走法，更多算法即将加入
+- **真实数据集** - 在实际网络上测试（DBLP、Enron、天体物理引用网络）
+- **交互式参数** - 调整阻尼因子、迭代次数等
 
-1. Visit the [live site](https://zjjyyyk.github.io/pagerank-webshow/)
-2. Choose a dataset (or upload your own)
-3. Select an algorithm
-4. Hit "Compute PageRank"
-5. Compare execution times and results!
+## 🎯 快速开始
 
-## 📊 Features
+1. 访问[在线网站](https://zjjyyyk.github.io/pagerank-webshow/)
+2. 选择一个数据集（或上传自己的）
+3. 选择一个算法
+4. 点击"Compute PageRank"
+5. 对比执行时间和结果！
 
-- ⚡ **Performance metrics** - Execution time tracking
-- 📈 **Error analysis** - L1, L2, and max relative error
-- 🎨 **Visual comparison** - Side-by-side results
-- 📤 **Custom datasets** - Upload your own graphs (edge list format)
-- 🔄 **Both graph types** - Directed and undirected support
+## 📊 功能特性
 
-## 🛠️ Tech Stack
+- ⚡ **性能指标** - 执行时间追踪
+- 📈 **误差分析** - L1、L2 和最大相对误差
+- 🎨 **可视化对比** - 并排显示结果
+- 📤 **自定义数据集** - 上传你自己的图（边列表格式）
+- 🔄 **支持两种图类型** - 有向图和无向图
+
+## 🛠️ 技术栈
 
 - React + TypeScript + Vite
 - WebAssembly (Emscripten)
-- Web Workers (non-blocking computation)
+- Web Workers（非阻塞计算）
 - Tailwind CSS
 
 ---
 
-Built to explore algorithm performance in the browser 🚀
+为在浏览器中探索算法性能而生 🚀
