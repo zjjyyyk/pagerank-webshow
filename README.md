@@ -1,6 +1,6 @@
 # PageRank 算法性能对比工具
 
-[🇬🇧 English](./README.zh.md) | 🇨🇳 简体中文
+[English](./README.zh.md) | 简体中文
 
 🚀 **[在线演示](https://zjjyyyk.github.io/pagerank-webshow/)**
 

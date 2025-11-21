@@ -1,6 +1,6 @@
 # PageRank Algorithm Performance Comparison
 
-🇬🇧 English | [🇨🇳 简体中文](./README.md)
+English | [简体中文](./README.md)
 
 🚀 **[Live Demo](https://zjjyyyk.github.io/pagerank-webshow/)**
 
