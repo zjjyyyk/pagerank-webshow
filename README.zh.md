@@ -8,6 +8,12 @@ English | [简体中文](./README.md)
 
 A web-based tool to **visualize and compare the performance** of different PageRank algorithm implementations in real-time.
 
+### 🎯 Core Idea
+
+**Compile C++ algorithms to WebAssembly and run high-performance algorithms directly in your browser!**
+
+By converting C++ code to WASM using Emscripten, we bring near-native computational speed to the web. No backend servers needed – all computations happen right in your browser!
+
 - **JavaScript vs WebAssembly (C++)** - See the speed difference yourself
 - **Multiple algorithm implementations** - Currently supports Power Iteration and Random Walk, with more algorithms coming soon
 - **Real datasets** - Test on actual networks (DBLP, Enron, Astrophysics citations)
