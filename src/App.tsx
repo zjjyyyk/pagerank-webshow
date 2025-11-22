@@ -28,12 +28,30 @@ function App() {
     <div className="min-h-screen bg-gray-900 text-white">
       {/* Header */}
       <header className="bg-gray-800 border-b border-gray-700 py-4 px-6">
-        <h1 className="text-2xl font-bold text-primary-400">
-          PageRank Algorithm Visualizer
-        </h1>
-        <p className="text-gray-400 text-sm mt-1">
-          Compare WebAssembly (C++) and JavaScript Pagerank Algorithms with implementations
-        </p>
+        <div className="flex items-center justify-between">
+          <div>
+            <h1 className="text-2xl font-bold text-primary-400">
+              PageRank Algorithm Visualizer
+            </h1>
+            <p className="text-gray-400 text-sm mt-1">
+              Compare WebAssembly (C++) and JavaScript Pagerank Algorithms with implementations
+            </p>
+          </div>
+          <a
+            href="https://github.com/zjjyyyk/pagerank-webshow"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg transition-colors"
+            title="View on GitHub"
+          >
+            <img 
+              src={`${import.meta.env.BASE_URL}github-icon.svg`} 
+              alt="GitHub" 
+              className="w-6 h-6"
+            />
+            <span className="text-sm font-medium">GitHub</span>
+          </a>
+        </div>
       </header>
 
       {/* Main Content */}
