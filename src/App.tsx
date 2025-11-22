@@ -37,20 +37,31 @@ function App() {
               Compare WebAssembly (C++) and JavaScript Pagerank Algorithms with implementations
             </p>
           </div>
-          <a
-            href="https://github.com/zjjyyyk/pagerank-webshow"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg transition-colors"
-            title="View on GitHub"
-          >
-            <img 
-              src={`${import.meta.env.BASE_URL}github-icon.svg`} 
-              alt="GitHub" 
-              className="w-6 h-6"
-            />
-            <span className="text-sm font-medium">GitHub</span>
-          </a>
+          <div className="flex items-center gap-3">
+            <a
+              href="https://zjjyyyk.github.io/resistance-sp-webshow/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg transition-colors text-sm font-medium"
+              title="Resistance-sp Webshow"
+            >
+              Resistance-sp Webshow
+            </a>
+            <a
+              href="https://github.com/zjjyyyk/pagerank-webshow"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg transition-colors"
+              title="View on GitHub"
+            >
+              <img 
+                src={`${import.meta.env.BASE_URL}github-icon.svg`} 
+                alt="GitHub" 
+                className="w-6 h-6"
+              />
+              <span className="text-sm font-medium">GitHub</span>
+            </a>
+          </div>
         </div>
       </header>
 
